@@ -100,7 +100,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 	local input_result = {}
 	local output_result = {}
 	if #input_sprites == 1 then
-		input_result = 
+		input_result =
 		{
 			{
 				icon = input_sprites[1],
@@ -123,7 +123,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 			}
 		}
 	elseif #input_sprites == 3 then
-		input_result = 
+		input_result =
 		{
 			{
 				icon = input_sprites[1],
@@ -142,7 +142,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 			}
 		}
 	elseif #input_sprites == 4 then
-		input_result = 
+		input_result =
 		{
 			{
 				icon = input_sprites[1],
@@ -195,7 +195,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 			}
 		}
 	elseif #input_sprites == 6 then
-		input_result = 
+		input_result =
 		{
 			{
 				icon = input_sprites[1],
@@ -228,7 +228,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		}
 	end
 	if #output_sprites == 1 then
-		output_result = 
+		output_result =
 		{
 			{
 				icon = output_sprites[1],
@@ -251,7 +251,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 			}
 		}
 	elseif #output_sprites == 3 then
-		output_result = 
+		output_result =
 		{
 			{
 				icon = output_sprites[1],
@@ -270,7 +270,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 			}
 		}
 	elseif #output_sprites == 4 then
-		output_result = 
+		output_result =
 		{
 			{
 				icon = output_sprites[1],
@@ -323,7 +323,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 			}
 		}
 	elseif #output_sprites == 6 then
-		output_result = 
+		output_result =
 		{
 			{
 				icon = output_sprites[1],

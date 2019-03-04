@@ -9,5 +9,3 @@ script.on_event(defines.events.on_robot_built_entity, function(event)
 		event.created_entity.burner.heat = 1000000
 	end
 end)
-
---"RFT-stone-casting-machine"

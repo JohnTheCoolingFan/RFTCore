@@ -1,5 +1,5 @@
 -- Connecting libs
-RFTlib = 
+RFTlib =
 {
 	graphics = require("libraries.graphicslib")
 }
@@ -98,7 +98,7 @@ data:extend({
 			layers =
 			{
 				{
-					layers = 
+					layers =
 					{
 						{
 							filename = "__RFTCore__/graphics/entity/stone-furnace/hr-stone-furnace-base.png",
