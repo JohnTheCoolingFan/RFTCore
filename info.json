@@ -1,0 +1,10 @@
+{
+"name": "RFTCore",
+"version": "0.0.1",
+"date": "2018-03-21",
+"title": "RFT Core",
+"author": "JohnTheCoolingFan",
+"factorio_version": "0.16",
+"dependencies": ["base >= 0.16.0"],
+"description": "Mod that provides new resources/mechanics/etc"
+}
