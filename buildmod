@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 MODNAME="$(cat info.json | jq -r ".name")"
 MODVERSION="$(cat info.json | jq -r ".version")"
