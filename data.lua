@@ -255,7 +255,7 @@ data:extend({
 		name = "example-furnace",
 		icon = "__base__/graphics/icons/stone-furnace.png",
 		icon_size = 32,
-		flags = {"goes-to-quickbar"},
+		flags = {},
 		subgroup = "smelting-machine",
 		order = "a[stone-furnace]",
 		place_result = "example-furnace",

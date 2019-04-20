@@ -2,7 +2,8 @@ local graphicslib = {}
 
 graphicslib.fluid_furnace_spritesheet = function(furnace_color)
 	local shiftvalue = {0.515625, 0.0625}
-	local hr_shiftvalue = util.by_pixel(-0.25, 6)
+	local hr_shiftvalue = util.by_pixel(0.25, 4.5)
+	--local hr_shiftvalue = {0, 0}
 	local output = {}
 	local furnace_base = {
 		filename = "__RFTCore__/graphics/entity/stone-furnace/hr-stone-furnace-base.png",
@@ -26,8 +27,8 @@ graphicslib.fluid_furnace_spritesheet = function(furnace_color)
 		tint = furnace_color
 	}
 	local pipe_north = {
-		filename = "__RFTCore__/graphics/entity/fluid-furnace/hr-fluid-furnace-pipe-up.png",
-		priority = "medium",
+		filename = "__RFTCore__/graphics/entity/fluid-furnace/hr-fluid-furnace-pipe-up-fixed.png",
+		priority = "high",
 		width = 151,
 		height = 146,
 		frame_count = 1,
@@ -37,7 +38,7 @@ graphicslib.fluid_furnace_spritesheet = function(furnace_color)
 	}
 	local pipe_south = {
 		filename = "__RFTCore__/graphics/entity/fluid-furnace/hr-fluid-furnace-pipe-down.png",
-		priority = "medium",
+		priority = "high",
 		width = 151,
 		height = 146,
 		frame_count = 1,
@@ -47,7 +48,7 @@ graphicslib.fluid_furnace_spritesheet = function(furnace_color)
 	}
 	local pipe_west = {
 		filename = "__RFTCore__/graphics/entity/fluid-furnace/hr-fluid-furnace-pipe-left.png",
-		priority = "medium",
+		priority = "high",
 		width = 151,
 		height = 146,
 		frame_count = 1,
@@ -57,7 +58,7 @@ graphicslib.fluid_furnace_spritesheet = function(furnace_color)
 	}
 	local pipe_east = {
 		filename = "__RFTCore__/graphics/entity/fluid-furnace/hr-fluid-furnace-pipe-right.png",
-		priority = "medium",
+		priority = "high",
 		width = 151,
 		height = 146,
 		frame_count = 1,
