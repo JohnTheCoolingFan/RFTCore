@@ -113,12 +113,12 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		{
 			{
 				icon = input_sprites[1],
-				shift = {-0.5 - 0.2, 4},
+				shift = {-8 - 2, -8},
 				scale = 0.4
 			},
 			{
 				icon = input_sprites[2],
-				shift = {-0.5 + 0.2, 0.5},
+				shift = {-8 + 2, -8},
 				scale = 0.4
 			}
 		}
@@ -241,12 +241,12 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		{
 			{
 				icon = output_sprites[1],
-				shift = {-0.5 - 0.2, 0.5},
+				shift = {-7 - 2.5, 7},
 				scale = 0.4
 			},
 			{
 				icon = output_sprites[2],
-				shift = {-0.5 + 0.2, 0.5},
+				shift = {-7 + 2.5, 7},
 				scale = 0.4
 			}
 		}
@@ -358,9 +358,9 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		}
 	end
 	local result = {}
-	table.insert(result, {icon = "__RFTCore__/graphics/icons/arrow.png"})
 	for index, sprite in pairs(input_result) do table.insert(result, sprite) end
 	for index, sprite in pairs(output_result) do table.insert(result, sprite) end
+	table.insert(result, {icon = "__RFTCore__/graphics/icons/arrow.png"})
 	return result
 end
 

@@ -107,7 +107,7 @@ data:extend({
 	{
 		type = "item",
 		name = "example-furnace",
-		icon = "__base__/graphics/icons/stone-furnace.png",
+		icons = RFTlib.graphics.sprite_with_arrow({"__RFTCore__/graphics/icons/RFTC.png", "__RFTCore__/graphics/icons/slag.png"}, {"__RFTCore__/graphics/icons/slag.png", "__RFTCore__/graphics/icons/RFTC.png"}),
 		icon_size = 32,
 		flags = {},
 		subgroup = "smelting-machine",
