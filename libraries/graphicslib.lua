@@ -1,3 +1,5 @@
+-- A library that includes functions for easy graphics assigning
+
 local graphicslib = {}
 
 graphicslib.fluid_furnace_spritesheet = function(furnace_color)
