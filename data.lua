@@ -106,6 +106,18 @@ data:extend({
 	},
 	{
 		type = "item",
+		name = "example-item",
+		icon = "__base__/graphics/icons/nuclear-fuel-reprocessing.png",
+		--icons = RFTlib.graphics.sprite_with_arrow({"__RFTCore__/graphics/icons/RFTC.png", "__RFTCore__/graphics/icons/slag.png"}, {"__RFTCore__/graphics/icons/slag.png", "__RFTCore__/graphics/icons/RFTC.png"}),
+		icon_size = 32,
+		flags = {},
+		subgroup = "smelting-machine",
+		order = "a[stone-furnace]",
+		place_result = "example-furnace",
+		stack_size = 50
+	},
+	{
+		type = "item",
 		name = "example-furnace",
 		icons = RFTlib.graphics.sprite_with_arrow({"__RFTCore__/graphics/icons/RFTC.png", "__RFTCore__/graphics/icons/slag.png"}, {"__RFTCore__/graphics/icons/slag.png", "__RFTCore__/graphics/icons/RFTC.png"}),
 		icon_size = 32,

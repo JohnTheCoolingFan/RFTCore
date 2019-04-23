@@ -106,7 +106,7 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		{
 			{
 				icon = input_sprites[1],
-				shift = {-0.5, 0.5},
+				shift = {-6, -7},
 				scale = 0.5
 			}
 		}
@@ -115,12 +115,12 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		{
 			{
 				icon = input_sprites[1],
-				shift = {-8 - 2, -8},
+				shift = {-6 - 2, -7 + 1},
 				scale = 0.4
 			},
 			{
 				icon = input_sprites[2],
-				shift = {-8 + 2, -8},
+				shift = {-6 + 2, -7 - 1},
 				scale = 0.4
 			}
 		}
@@ -129,18 +129,18 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		{
 			{
 				icon = input_sprites[1],
-				shift = {-0.5 - 0.2, 0.5 + 0.2},
-				scale = 0.4
+				shift = {-6 - 2, -7 + 1},
+				scale = 0.3
 			},
 			{
 				icon = input_sprites[2],
-				shift = {-0.5 + 0.2, 0.5 + 0.2},
-				scale = 0.4
+				shift = {-6, -7},
+				scale = 0.3
 			},
 			{
 				icon = input_sprites[3],
-				shift = {-0.5 - 0.2,       0.5},
-				scale = 0.4
+				shift = {-6 - 2, -7 - 1},
+				scale = 0.3
 			}
 		}
 	elseif #input_sprites == 4 then
@@ -148,23 +148,23 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		{
 			{
 				icon = input_sprites[1],
-				shift = {-0.5 - 0.2, 0.5 + 0.2},
-				scale = 0.4
+				shift = {-6 - 2, -7},
+				scale = 0.3
 			},
 			{
 				icon = input_sprites[2],
-				shift = {-0.5 + 0.2, 0.5 + 0.2},
-				scale = 0.4
+				shift = {-6 - 0.75, -7 + 1},
+				scale = 0.3
 			},
 			{
 				icon = input_sprites[3],
-				shift = {-0.5 - 0.2, 0.5 - 0.2},
-				scale = 0.4
+				shift = {-6 + 0.75, -7 - 1},
+				scale = 0.3
 			},
 			{
 				icon = input_sprites[4],
-				shift = {-0.5 + 0.2, 0.5 - 0.2},
-				scale = 0.4
+				shift = {-6 + 2, -7},
+				scale = 0.3
 			}
 		}
 	elseif #input_sprites == 5 then
@@ -172,60 +172,28 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		{
 			{
 				icon = input_sprites[1],
-				shift = {-0.5 - 0.3, 0.5 + 0.2},
-				scale = 0.3
+				shift = {-6 - 2.25, -7 + 0.25},
+				scale = 0.2
 			},
 			{
 				icon = input_sprites[2],
-				shift = {-0.5,       0.5 + 0.2},
-				scale = 0.3
+				shift = {-6 - 1, -7 + 1.25},
+				scale = 0.2
 			},
 			{
 				icon = input_sprites[3],
-				shift = {-0.5 + 0.3, 0.5 + 0.2},
-				scale = 0.3
+				shift = {-6 + 0.5, -7 - 0.75},
+				scale = 0.2
 			},
 			{
 				icon = input_sprites[4],
-				shift = {-0.5 - 0.2, 0.5 - 0.2},
-				scale = 0.3
+				shift = {-6 + 1.75, -7 + 0.5},
+				scale = 0.2
 			},
 			{
 				icon = input_sprites[5],
-				shift = {-0.5 + 0.2, 0.5 - 0.2},
-				scale = 0.3
-			}
-		}
-	elseif #input_sprites == 6 then
-		input_result =
-		{
-			{
-				icon = input_sprites[1],
-				shift = {-0.5 - 0.3, 0.5 + 0.2},
-				scale = 0.3
-			},
-			{
-				icon = input_sprites[2],
-				shift = {-0.5,       0.5 + 0.2},
-				scale = 0.3
-			},
-			{
-				icon = input_sprites[3],
-				shift = {-0.5 + 0.3, 0.5 + 0.2}
-			},
-			{
-				icon = input_sprites[4],
-				shift = {-0.5 - 0.3, 0.5 - 0.2},
-				scale = 0.3
-			},
-			{
-				icon = input_sprites[5],
-				shift = {-0.5,       0.5 - 0.2},
-				scale = 0.3
-			},
-			{
-				icon = input_sprites[6],
-				shift = {-0.5 + 0.3, 0.5 - 0.2}
+				shift = {-6 + 2.25, -7},
+				scale = 0.2
 			}
 		}
 	end
@@ -233,8 +201,8 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		output_result =
 		{
 			{
-				icon = output_sprites[1],
-				shift = {-0.5, 0.5},
+				icon = input_sprites[1],
+				shift = {6, 7},
 				scale = 0.5
 			}
 		}
@@ -242,120 +210,86 @@ graphicslib.sprite_with_arrow = function(input_sprites, output_sprites)
 		output_result =
 		{
 			{
-				icon = output_sprites[1],
-				shift = {-7 - 2.5, 7},
+				icon = input_sprites[1],
+				shift = {6 - 2, 7 + 1},
 				scale = 0.4
 			},
 			{
-				icon = output_sprites[2],
-				shift = {-7 + 2.5, 7},
+				icon = input_sprites[2],
+				shift = {6 + 2, 7 - 1},
 				scale = 0.4
 			}
 		}
-	elseif #output_sprites == 3 then
+	elseif #input_sprites == 3 then
 		output_result =
 		{
 			{
-				icon = output_sprites[1],
-				shift = {-0.5 - 0.2, 0.5 + 0.2},
-				scale = 0.4
+				icon = input_sprites[1],
+				shift = {6 - 2, 7 + 1},
+				scale = 0.3
 			},
 			{
-				icon = output_sprites[2],
-				shift = {-0.5 + 0.2, 0.5 + 0.2},
-				scale = 0.4
+				icon = input_sprites[2],
+				shift = {6, 7},
+				scale = 0.3
 			},
 			{
-				icon = output_sprites[3],
-				shift = {-0.5 - 0.2,       0.5},
-				scale = 0.4
+				icon = input_sprites[3],
+				shift = {6 - 2, 7 - 1},
+				scale = 0.3
 			}
 		}
 	elseif #output_sprites == 4 then
 		output_result =
 		{
 			{
-				icon = output_sprites[1],
-				shift = {-0.5 - 0.2, 0.5 + 0.2},
-				scale = 0.4
+				icon = input_sprites[1],
+				shift = {6 - 2, 7},
+				scale = 0.3
 			},
 			{
-				icon = output_sprites[2],
-				shift = {-0.5 + 0.2, 0.5 + 0.2},
-				scale = 0.4
+				icon = input_sprites[2],
+				shift = {6 - 0.75, 7 + 1},
+				scale = 0.3
 			},
 			{
-				icon = output_sprites[3],
-				shift = {-0.5 - 0.2, 0.5 - 0.2},
-				scale = 0.4
+				icon = input_sprites[3],
+				shift = {6 + 0.75, 7 - 1},
+				scale = 0.3
 			},
 			{
-				icon = output_sprites[4],
-				shift = {-0.5 + 0.2, 0.5 - 0.2},
-				scale = 0.4
+				icon = input_sprites[4],
+				shift = {6 + 2, 7},
+				scale = 0.3
 			}
 		}
 	elseif #output_sprites == 5 then
 		output_result =
 		{
 			{
-				icon = output_sprites[1],
-				shift = {-0.5 - 0.3, 0.5 + 0.2},
-				scale = 0.3
+				icon = input_sprites[1],
+				shift = {6 - 2.25, 7 + 0.25},
+				scale = 0.2
 			},
 			{
-				icon = output_sprites[2],
-				shift = {-0.5,       0.5 + 0.2},
-				scale = 0.3
+				icon = input_sprites[2],
+				shift = {6 - 1, 7 + 1.25},
+				scale = 0.2
 			},
 			{
-				icon = output_sprites[3],
-				shift = {-0.5 + 0.3, 0.5 + 0.2},
-				scale = 0.3
+				icon = input_sprites[3],
+				shift = {6 + 0.5, 7 - 0.75,},
+				scale = 0.2
 			},
 			{
-				icon = output_sprites[4],
-				shift = {-0.5 - 0.2, 0.5 - 0.2},
-				scale = 0.3
+				icon = input_sprites[4],
+				shift = {6 + 1.75, 7 + 0.5},
+				scale = 0.2
 			},
 			{
-				icon = output_sprites[5],
-				shift = {-0.5 + 0.2, 0.5 - 0.2},
-				scale = 0.3
-			}
-		}
-	elseif #output_sprites == 6 then
-		output_result =
-		{
-			{
-				icon = output_sprites[1],
-				shift = {-0.5 - 0.3, 0.5 + 0.2},
-				scale = 0.3
-			},
-			{
-				icon = output_sprites[2],
-				shift = {-0.5,       0.5 + 0.2},
-				scale = 0.3
-			},
-			{
-				icon = output_sprites[3],
-				shift = {-0.5 + 0.3, 0.5 + 0.2},
-				scale = 0.3
-			},
-			{
-				icon = output_sprites[4],
-				shift = {-0.5 - 0.3, 0.5 - 0.2},
-				scale = 0.3
-			},
-			{
-				icon = output_sprites[5],
-				shift = {-0.5,       0.5 - 0.2},
-				scale = 0.3
-			},
-			{
-				icon = output_sprites[6],
-				shift = {-0.5 + 0.3, 0.5 - 0.2},
-				scale = 0.3
+				icon = input_sprites[5],
+				shift = {6 + 2.25, 7},
+				scale = 0.2
 			}
 		}
 	end
