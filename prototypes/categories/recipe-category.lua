@@ -14,5 +14,9 @@ data:extend({
     {
         type = "recipe-category",
         name = "RFT-metal-melting-t4"
+    },
+    {
+        type = "recipe-category",
+        name = "RFT-metal-casting"
     }
 })
