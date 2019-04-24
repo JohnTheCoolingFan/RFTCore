@@ -5,6 +5,7 @@ RFTlib =
 }
 
 -- Requires
+require("prototypes.categories.recipe-category")
 require("prototypes.entity.entities")
 require("prototypes.fluid.fluids")
 require("prototypes.item.items")
