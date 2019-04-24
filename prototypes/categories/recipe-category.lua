@@ -10,5 +10,9 @@ data:extend({
     {
         type = "recipe-category",
         name = "RFT-metal-melting-t3"
+    },
+    {
+        type = "recipe-category",
+        name = "RFT-metal-melting-t4"
     }
 })
