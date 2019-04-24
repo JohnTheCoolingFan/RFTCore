@@ -1,7 +1,8 @@
 -- Connecting libs
 RFTlib =
 {
-	graphics = require("libraries.graphicslib")
+	graphics = require("libraries.graphicslib"),
+	material = require("libraries.material")
 }
 
 -- Requires
