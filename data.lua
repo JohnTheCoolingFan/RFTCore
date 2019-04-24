@@ -51,7 +51,7 @@ data:extend({
 		},
 		collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
 		selection_box = {{-0.9, -0.9}, {0.9, 0.9}},
-		crafting_categories = {"RFT-casting"},
+		crafting_categories = {"RFT-metal-casting"},
 		energy_usage = "0.001W",
 		crafting_speed = 0.25,
 		energy_source =
