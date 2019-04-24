@@ -14,26 +14,6 @@ require("prototypes.item.resources")
 require("prototypes.recipe.machines")
 require("prototypes.recipe.resources")
 
--- Crafting categories
-data:extend({
-	{
-		type = "fuel-category",
-		name = "infinity"
-	},
-	{
-		type = "recipe-category",
-		name = "RFT-smelting"
-	},
-	{
-		type = "recipe-category",
-		name = "RFT-casting"
-	},
-	{
-		type = "recipe-category",
-		name = "RFT-alloying"
-	},
-})
-
 -- Test furnace
 data:extend({
 	{
