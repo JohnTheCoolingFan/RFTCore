@@ -1,14 +1,14 @@
 data:extend({
     {
         type = "recipe-category",
-        name = "metal-smelting-t1"
+        name = "metal-melting-t1"
     },
     {
         type = "recipe-category",
-        name = "metal-smelting-t2"
+        name = "metal-melting-t2"
     },
     {
         type = "recipe-category",
-        name = "metal-smelting-t3"
+        name = "metal-melting-t3"
     }
 })
