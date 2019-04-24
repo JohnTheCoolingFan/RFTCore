@@ -35,6 +35,7 @@ materiallib.add_metal = function(parameters)
     data:extend(output)
 end
 
+-- Just example
 local metal_example = {
     name = "iron",
     heat_capacity = 450, -- J / (kg * degree (Celsius))
