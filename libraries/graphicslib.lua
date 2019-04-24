@@ -28,7 +28,7 @@ graphicslib.fluid_furnace_spritesheet = function(furnace_color)
 		tint = furnace_color
 	}
 	local pipe_north = {
-		filename = "__RFTCore__/graphics/entity/fluid-furnace/hr-fluid-furnace-pipe-up-fixed.png",
+		filename = "__RFTCore__/graphics/entity/fluid-furnace/hr-fluid-furnace-pipe-up.png",
 		priority = "high",
 		width = 151,
 		height = 146,
