@@ -44,7 +44,7 @@ local metal_example = {
         item = "iron-plate",
         fluid = "molten-iron",
         item_to_fluid = {5, 500} -- How much molten metal ([2]) you will get for [1] item
-    },
+    }
 }
 
 return materiallib
