@@ -13,6 +13,7 @@ require("prototypes.item.items")
 require("prototypes.item.resources")
 require("prototypes.recipe.machines")
 require("prototypes.recipe.resources")
+require('prototypes.technologies.technologies')
 
 -- Test furnace
 data:extend({
