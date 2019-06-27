@@ -122,7 +122,7 @@ data:extend({
         },
         collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
         selection_box = {{-0.9, -0.9}, {0.9, 0.9}},
-        crafting_categories = {"RFT-metal-smelting-t2"},
+        crafting_categories = {"RFT-metal-smelting-t2", 'RFT-metal-smelting-t1'},
         energy_usage = "180kW",
         crafting_speed = 0.7,
         energy_source =
