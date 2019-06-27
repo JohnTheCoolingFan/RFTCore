@@ -6,14 +6,14 @@ materiallib.add_metal = function(parameters)
         {
             type = "recipe",
             name = parameters.name.."-melting",
-            ingredients = {{parameters.prototypes.item, parametrs.prototypes.item_to_fluid[1]},
+            ingredients = {{parameters.prototypes.item, parametrs.prototypes.item_to_fluid[1]}},
             results = {{type = "fluid", name = parameters.prototypes.fluid, amount = parameters.prototypes.item_to_fluid[2]}},
             energy_required = math.ceil(parameters.heat_capacity * parameters.melting_temperature / 80000 * settings.startup["RFT-metal-melting-time-modifier"]) * 10
         },
         {
             type = "recipe",
             name = "molten-"..parameters.name.."-casting",
-            category = "RFT-metal-casting"
+            category = "RFT-metal-casting",
             ingredients = {{type = "fluid", name = parameters.prototypes.fluid, amount = parameters.prototypes.item_to_fluid[2]}},
             result = parameters.prototypes.item,
             result_count = parameters.prototypes.item_to_fluid[1],
