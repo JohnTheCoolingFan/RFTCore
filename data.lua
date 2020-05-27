@@ -1,3 +1,5 @@
+-- TODO: check prototypes, make mipmaps
+
 -- Connecting libs
 RFTlib =
 {
