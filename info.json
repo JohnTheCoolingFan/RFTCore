@@ -1,11 +1,13 @@
 {
-"name": "RFTCore",
-"version": "0.0.1",
-"title": "RFT Core",
-"author": "JohnTheCoolingFan",
-"contact": "ivan8215145640@gmail.com",
-"homepage": "https://discord.gg/grHVhE2",
-"dependencies": ["base >= 0.18.0"],
-"description": "Mod that provides new resources/mechanics/etc",
-"factorio_version": "0.18"
+    "name": "RFTCore",
+    "version": "0.0.1",
+    "title": "RFT Core",
+    "author": "JohnTheCoolingFan",
+    "contact": "https://discord.gg/grHVhE2",
+    "homepage": "https://discord.gg/grHVhE2",
+    "dependencies": [
+        "base >= 0.18.0"
+    ],
+    "description": "Mod that provides new resources/mechanics/etc",
+    "factorio_version": "0.18"
 }
