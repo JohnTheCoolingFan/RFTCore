@@ -1,6 +1,8 @@
 -- A library that includes functions to make materials, such as metals, and unified recipes for them
 local materiallib
 
+-- materiallib.add_metal
+--   Adds metal material, with proper naming, durations and categories, based on input characteristics
 materiallib.add_metal = function(parameters)
     local output = {
         {
@@ -46,5 +48,6 @@ local metal_example = {
         item_to_fluid = {5, 500} -- How much molten metal ([2]) you will get for [1] item
     }
 }
+-- Possible change to format: multiple items associated with material, each with its mass.
 
 return materiallib
