@@ -3,8 +3,8 @@
 local graphicslib = {}
 
 graphicslib.fluid_furnace_spritesheet = function(furnace_color)
-    local shiftvalue = {0.515625, 0.0625}
-    local hr_shiftvalue = util.by_pixel(0.25, 4.5)
+    local shiftvalue = {0.515625, 0.0625}          -- Shift value for lr (may be useless in 0.18)
+    local hr_shiftvalue = util.by_pixel(0.25, 4.5) -- Shift value for hr
     local output = {}
     local furnace_base = {
         filename = "__RFTCore__/graphics/entity/stone-furnace/hr-stone-furnace-base.png",
