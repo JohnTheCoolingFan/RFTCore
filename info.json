@@ -8,6 +8,6 @@
     "dependencies": [
         "base >= 0.18.0"
     ],
-    "description": "Mod that provides new resources/mechanics/etc",
+    "description": "Provides tools for other RFT mods.",
     "factorio_version": "0.18"
 }
