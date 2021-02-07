@@ -1,3 +1,5 @@
+-- TODO: revive thi f*ing project
+-- TODO: productivity module limitation functions
 -- TODO: check prototypes, make mipmaps
 
 -- Connecting libs
